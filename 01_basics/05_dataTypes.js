@@ -39,3 +39,36 @@ const myobj = {
 const fun = function(){              
     console.log("Function has been created!");
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory (Primitive)
+// Uses call by value method means it will give the copy of an value
+
+let user = "Rahul";          // string value
+let usr = user;             // assinging user to usr in Stack memory
+let changeuser = "Kumar";   
+console.log(user);          // After changing the parameter "Rahul" to "Kumar",
+                            // It will not change the original parameter.
+console.log(changeuser);    // Changed parameter.
+
+
+// Heap memory (Non Primitive)
+// Uses call by reference method means it will give or change the original value.
+
+let obj = {                    // object parameter
+    name: "Kumar",
+    age: 23
+}
+
+let newobj = obj;             // assinging obj to newobj in heap memory.
+
+newobj.name = "Rahul";       //  Changing the parameter "Kumar" to "Rahul"
+
+console.log(obj.name);       //  It will change the original value also.
+console.log(newobj.name);
+
+
+// Javascript is a dynamically typed language. Because data type will automatically 
+// assigned at the time of compilation or code execution.
