@@ -3,7 +3,7 @@ const age = 23;
 
 console.log(`Hello my name is ${name} and my age is ${age}`);
 
-const newname = String(`Goga`);
+const newname = String(`Google`);
 
 console.log(newname[0]);  // To print the character in 0th position
 
@@ -25,3 +25,123 @@ console.log(Name.trim()); // Use to remove spaces in a string
 
 const url = "https://google.com/rahul%20kumar"
 console.log(url.replace('%20','-'));
+
+// String { "google" }
+// ​
+// 0: "g"
+// ​
+// 1: "o"
+// ​
+// 2: "o"
+// ​
+// 3: "g"
+// ​
+// 4: "l"
+// ​
+// 5: "e"
+// ​
+// length: 6
+// ​
+// <prototype>: String { "" }
+// ​​
+// anchor: function anchor()
+// ​​
+// at: function at()
+// ​​
+// big: function big()
+// ​​
+// blink: function blink()
+// ​​
+// bold: function bold()
+// ​​
+// charAt: function charAt()
+// ​​
+// charCodeAt: function charCodeAt()
+// ​​
+// codePointAt: function codePointAt()
+// ​​
+// concat: function concat()
+// ​​
+// constructor: function String()
+// ​​
+// endsWith: function endsWith()
+// ​​
+// fixed: function fixed()
+// ​​
+// fontcolor: function fontcolor()
+// ​​
+// fontsize: function fontsize()
+// ​​
+// includes: function includes()
+// ​​
+// indexOf: function indexOf()
+// ​​
+// italics: function italics()
+// ​​
+// lastIndexOf: function lastIndexOf()
+// ​​
+// length: 0
+// ​​
+// link: function link()
+// ​​
+// localeCompare: function localeCompare()
+// ​​
+// match: function match()
+// ​​
+// matchAll: function matchAll()
+// ​​
+// normalize: function normalize()
+// ​​
+// padEnd: function padEnd()
+// ​​
+// padStart: function padStart()
+// ​​
+// repeat: function repeat()
+// ​​
+// replace: function replace()
+// ​​
+// replaceAll: function replaceAll()
+// ​​
+// search: function search()
+// ​​
+// slice: function slice()
+// ​​
+// small: function small()
+// ​​
+// split: function split()
+// ​​
+// startsWith: function startsWith()
+// ​​
+// strike: function strike()
+// ​​
+// sub: function sub()
+// ​​
+// substr: function substr()
+// ​​
+// substring: function substring()
+// ​​
+// sup: function sup()
+// ​​
+// toLocaleLowerCase: function toLocaleLowerCase()
+// ​​
+// toLocaleUpperCase: function toLocaleUpperCase()
+// ​​
+// toLowerCase: function toLowerCase()
+// ​​
+// toString: function toString()
+// ​​
+// toUpperCase: function toUpperCase()
+// ​​
+// trim: function trim()
+// ​​
+// trimEnd: function trimEnd()
+// ​​
+// trimLeft: function trimStart()
+// ​​
+// trimRight: function trimEnd()
+// ​​
+// trimStart: function trimStart()
+// ​​
+// valueOf: function valueOf()
+// ​​
+// Symbol(Symbol.iterator): function Symbol.iterator()
